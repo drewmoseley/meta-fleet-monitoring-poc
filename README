@@ -1,0 +1,31 @@
+This README file contains information on the contents of the meta-fleet-monitoring-poc layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  URI: git@github.com:openembedded/meta-openembedded.git
+  branch: dunfell
+
+Patches
+=======
+
+Please submit any patches against the meta-fleet-monitoring-poc layer using github pull requests
+
+Maintainer: Drew Moseley <drew.moseley@toradex.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-fleet-monitoring-poc layer to your build
+ II. Misc
+
+
+I. Adding the meta-fleet-monitoring-poc layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-fleet-monitoring-poc'
+
+II. Misc
+========

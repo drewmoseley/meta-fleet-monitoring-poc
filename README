@@ -29,3 +29,15 @@ Run 'bitbake-layers add-layer meta-fleet-monitoring-poc'
 
 II. Misc
 ========
+
+To configure this POC, add the following to your local.conf with an appropriate
+IP address or URL for your server
+    FLEET_SERVER_URI = "<IP-ADDRESS-OF-SERVER>"
+
+To launch the demo server, you need a system with docker and docker-compose
+installed.
+    $ cd meta-fleet-monitoring-poc/misc
+    $ docker-compose -f fleet-monitoring-server-docker-compose.yml up -d
+
+Now you can point your browser at http://localhost:5601/ to configure data
+visualization with Kibana.
